@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 8780338687603492595}
   - component: {fileID: 8780338687603492592}
   - component: {fileID: 7968138711905903021}
+  - component: {fileID: 524136860}
   m_Layer: 0
   m_Name: UFO
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95,7 +96,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   theRB2D: {fileID: 0}
-  movementSpeed: 0
+  movementSpeed: 6
 --- !u!50 &7968138711905903021
 Rigidbody2D:
   serializedVersion: 4
@@ -116,7 +117,23 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
+--- !u!58 &524136860
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8780338687603492593}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 2.07
 --- !u!1 &8780338688553322504
 GameObject:
   m_ObjectHideFlags: 0
