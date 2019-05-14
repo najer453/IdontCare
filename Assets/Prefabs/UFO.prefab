@@ -179,13 +179,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8044ba7fb5b84dcfa9eb0efd47ff269, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myBullet: {fileID: 0}
+  myBullet: {fileID: 5541956959147295591, guid: 8a7df6f8581ee4dd48624efd5442e41a,
+    type: 3}
   barrel: {fileID: 9086133966392637652}
   lzerSight: {fileID: 5895655066042161533}
   speed: 0
   angle: 0
   myUFO: {fileID: 0}
-  projectile: {fileID: 0}
+  projectile: {fileID: 5541956959147295591, guid: 8a7df6f8581ee4dd48624efd5442e41a,
+    type: 3}
 --- !u!1 &8780338688553322504
 GameObject:
   m_ObjectHideFlags: 0
