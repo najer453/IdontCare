@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/kaylee.unity
     guid: 670009b3a81644f878eb5e5866765089
   - enabled: 1
+    path: Assets/kaylee 1.unity
+    guid: 3462f51d4171342fcbe7c04b88ba4135
+  - enabled: 1
     path: Assets/MyOldLevel.unity
     guid: c3ad7c34f20da489592b9efcc890e4f0
   - enabled: 1
